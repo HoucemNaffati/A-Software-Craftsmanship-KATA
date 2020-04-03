@@ -22,7 +22,7 @@
 
 ### SOLID:
 
-  1.SRP: Single Responsibility Principle
+  ##### SRP: Single Responsibility Principle
 
     A class, a function, a variable should have a unique functional reason to change.
     Always think about functional responsibility within an abstraction layer.
@@ -30,23 +30,23 @@
     Within a given abstraction layer, name the element by its functional responsibilities (Aggregate and hide details).
     => If the name contains OR | AND then SRP is violated.
 
-  2.OCP: Open Closed Principle
+  ##### OCP: Open Closed Principle
 
     Each public class or function should be closed to modification and opened for extension:
     Changing details requirements should remain in the details (private utilities methods or dependencies)
     Adding a new case of the same rule should'nt push you to modify the signature or the implementation 
     of your exposed methods.
   
-  3.LSP: Liskov substitution principle
+  ##### LSP: Liskov substitution principle
   
     if S is a subtype of T, then objects of type T in a program may be replaced with objects of type S without 
     altering any of the desirable properties of that program
   
-  4.ISP: Interface segregation principle
+  ##### ISP: Interface segregation principle
   
     Clients shouldn't be forced to depend on methods they do not use.
      
-  5.DIP: Dependency Inversion Principle  
+  ##### DIP: Dependency Inversion Principle  
   
     The use case doesn't instantiate its dependencies, but it only defines them (contracts).
     High-level modules should not depend on low-level modules. Both should depend on abstractions(contracts).
