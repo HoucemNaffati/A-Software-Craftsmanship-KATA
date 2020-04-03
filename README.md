@@ -2,7 +2,7 @@
 Advanced Exercise to introduce Example Mapping|TDD|Hexagonal Architecture
 
 1. Implement example-mapped [**specifications**](Spec.md) using TDD (~45min)
-2. Try to apply craftsmanship [**rules and principles**][./OurRules.md]
+2. Try to apply craftsmanship [**rules and principles**][OurRules.md]
 3. Experience impact of those changes on your code "_**in the given order**_" to measure sucess.
 
 ### Clean code should be able to adapt quickly without impacting your test suite
