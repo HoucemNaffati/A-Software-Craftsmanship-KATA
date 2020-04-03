@@ -1,4 +1,4 @@
-#Title: Timed Message Generator
+# Timed Message Generator
 
 use a clock, interpret values so you can every second
    ### if the second is divisible by 10
