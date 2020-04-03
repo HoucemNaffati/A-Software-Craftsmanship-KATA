@@ -1,9 +1,9 @@
 # TimedMessageGenerator
-Advanced Exercise to introduce Example Mapping/TDD/Hexagonal Architecture
+Advanced Exercise to introduce Example Mapping|TDD|Hexagonal Architecture
 
-1. Implement example-mapped (*specifications*)[./Spec.md] using TDD (~45min)
-2. Try to apply craftsmanship (*rules and principles*)[./OurRules.md]
-3. Experience impact of those changes on your code "in the given order" to measure sucess.
+1. Implement example-mapped [**specifications**](Spec.md) using TDD (~45min)
+2. Try to apply craftsmanship [**rules and principles**][./OurRules.md]
+3. Experience impact of those changes on your code "_**in the given order**_" to measure sucess.
 
 ### Clean code should be able to adapt quickly without impacting your test suite
 
@@ -35,7 +35,7 @@ we want to output one unique message combining all values (Fuse 'Fizz Buzz' and 
     Display "FULL ODD" when the hour, minute and second are ODD or "FULL EVEN" otherwise.
   
 :five: Synchronization problem: 
-    Use the api : http://worldtimeapi.org/api/ip to fetch the hour based on IP address.
+    Use an api like (http://worldtimeapi.org/api/ip)[http://worldtimeapi.org/api/ip] to fetch the hour based on IP address.
 
 :six: ExperiencedUsers: 
     For the deterministic part of the game we want to interpreat the hole interval [min(lastrandom, second%10], max(lastrandom,second%10)] 
@@ -47,4 +47,5 @@ we want to output one unique message combining all values (Fuse 'Fizz Buzz' and 
   => 2-2-Happy or UnHappy|3-Fizz-Happy or UnHappy|4-4-Happy or UnHappy|5-Buzz-Happy or UnHappy
   ````
 
-##### Happy coding FOLKS 
+##### Happy coding FOLKS !
+### check my implementation [here](./app)
