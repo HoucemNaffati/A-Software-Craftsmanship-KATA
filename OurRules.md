@@ -10,7 +10,7 @@
 
 - We use Hexagonal Architecture principles: https://alistair.cockburn.us/hexagonal-architecture/
 
-# Coding:
+# Coding principles:
 
 - Public methods are ruled by contracts, never change the signature.
 - Coding by wishful thinking.
@@ -32,7 +32,7 @@
 
   2.OCP: Open Closed Principle
 
-    Each class, function should be closed to modification and opened for extension:
+    Each public class or function should be closed to modification and opened for extension:
     * Changing details requirements should remain in the details (private utilities methods or dependencies)
     * Adding a new case of the same rule should'nt push you to modify the signature or the implementation 
     of your exposed methods.
