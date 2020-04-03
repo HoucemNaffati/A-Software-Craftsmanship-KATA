@@ -4,7 +4,7 @@
 - Always Challenge examples. (it is never enough details)
 - Always precise obvious cases, express them with examples.
 - Never forget edge cases. (don't make decisions instead of your client)
-- Never forget exceptions
+- Never forget exceptions.
 
 # Architecture:
 
@@ -27,14 +27,14 @@
     A class, a function, a variable should have a unique functional reason to change.
     Always think about functional responsibility within an abstraction layer.
     How to be sure that I am not getting it wrong: 
-    within an abstraction layer, name the element by its functional responsibilities (Aggregate and hide details within a specific abstraction layer and specific need).
-    =>If the name contains OR | AND then SRP is violated.
+    Within a given abstraction layer, name the element by its functional responsibilities (Aggregate and hide details).
+    => If the name contains OR | AND then SRP is violated.
 
   2.OCP: Open Closed Principle
 
     Each public class or function should be closed to modification and opened for extension:
-    * Changing details requirements should remain in the details (private utilities methods or dependencies)
-    * Adding a new case of the same rule should'nt push you to modify the signature or the implementation 
+    Changing details requirements should remain in the details (private utilities methods or dependencies)
+    Adding a new case of the same rule should'nt push you to modify the signature or the implementation 
     of your exposed methods.
   
   3.LSP: Liskov substitution principle
@@ -44,7 +44,7 @@
   
   4.ISP: Interface segregation principle
   
-     Clients shouldn't be forced to depend on methods they do not use.
+    Clients shouldn't be forced to depend on methods they do not use.
      
   5.DIP: Dependency Inversion Principle  
   
@@ -54,7 +54,7 @@
 
 
 
-#Testing:
+# Testing:
 
 ##### NEVER TEST TECHNICAL DETAILS
 
@@ -66,7 +66,7 @@
 https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html
 https://www.openmymind.net/2011/3/23/Stop-Using-Mocks/
 
-##Unit Test
+## Unit Tests
 
     Validates functional specifications.
     Captures behaviors and no technical details.
@@ -77,12 +77,12 @@ https://www.openmymind.net/2011/3/23/Stop-Using-Mocks/
     It is framework independent.
     Grants functional non regression as a consequence.
 
-##Integration Test
+## Integration Tests
 
     Validates that dependencies behave as expected.
     In general, it tests what we stubbed in unit tests.
 
-##E2E test:
+## E2E tests
 
     It is a test that crosses all layers (UI, Config, Service, UseCase...) and grants the
     expected behaviour from the point of view of the user.
@@ -91,15 +91,15 @@ https://www.openmymind.net/2011/3/23/Stop-Using-Mocks/
     UI details can change easily so you can do snapshot testing (happy and failure scenarios) to capture accidental
     global regressions.
 
-#Smells:
+# Smells:
 
 - Broken SRP: After naming correctly, the name contains OR or AND.
 - BAD Design: Changing method visibility only to be able to test it.
 - Tests are not UNIT: Test suite passes some time, some times not.
 - Test FOCUS: changing technical details break one or more tests.
 
-#TDD
-    We do Baby Steps
+# TDD
+    We do Baby Steps and discover design by following what the tests need incrementally.
 
     red -> green -> refactor -> red...
         red: I dont write any production code unless I have a failing unit test that require it.
