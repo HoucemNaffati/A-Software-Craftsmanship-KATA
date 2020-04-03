@@ -1,14 +1,13 @@
 import {MessageGenerator} from "./message-generator.contract";
-import {RandomNumberPicker} from "../ports/random-number-picker";
 import {MessageType} from "./message-type.type";
 
 export class Happy implements MessageGenerator {
 	
-	constructor(private readonly randomNumberPicker: RandomNumberPicker) {
+	constructor(private readonly randomNValue: number) {
 	}
 	
 	generate(): string {
-		if (this.randomNumberPicker.generate() === 7)
+		if (this.isHappy())
 			return MessageType.HAPPY;
 		return MessageType.UNHAPPY;
 	}
@@ -18,6 +17,10 @@ export class Happy implements MessageGenerator {
 		if (timeElement !== 0)
 			return timeElement % 10 === 0;
 		return false;
+	}
+	
+	private isHappy() {
+		return this.randomNValue === 7;
 	}
 	
 }

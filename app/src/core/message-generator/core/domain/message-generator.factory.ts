@@ -1,5 +1,4 @@
 import {MessageGenerator} from "./message-generator.contract";
-import {RandomNumberPicker} from "../ports/random-number-picker";
 import {FizzBuzz} from "./fizz-buzz";
 import {Fizz} from "./fizz";
 import {Buzz} from "./buzz";
@@ -9,8 +8,8 @@ import {DefaultMessageGenerator} from "./default";
 export class MessageGeneratorFactory {
 	private readonly strategies: MessageGenerator[];
 	
-	constructor(private readonly randomNumberPicker: RandomNumberPicker) {
-		this.strategies = [new Happy(randomNumberPicker), new FizzBuzz(), new Fizz(), new Buzz()];
+	constructor(private readonly randomValue: number) {
+		this.strategies = [new Happy(randomValue), new FizzBuzz(), new Fizz(), new Buzz()];
 	}
 	
 	of(time: Date): MessageGenerator {

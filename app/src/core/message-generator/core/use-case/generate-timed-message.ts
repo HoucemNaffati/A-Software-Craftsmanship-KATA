@@ -1,8 +1,9 @@
 import {Clock} from "../ports/clock";
 import {RandomNumberPicker} from "../ports/random-number-picker";
 import {MessageGeneratorFactory} from "../domain/message-generator.factory";
+import {RandomValueOutOfBound} from "../domain/RandomValueOutOfBound";
 
-export class GenrateTimedMessage {
+export class GenerateTimedMessage {
 	
 	constructor(private readonly clock: Clock, private readonly randomNumberPicker: RandomNumberPicker) {}
 	
@@ -13,9 +14,16 @@ export class GenrateTimedMessage {
 	}
 	
 	private generateMessage() {
-		return new MessageGeneratorFactory(this.randomNumberPicker)
+		const randomValue = this.randomNumberPicker.generate();
+		this.validateRandomValue(randomValue);
+		return new MessageGeneratorFactory(randomValue)
 			.of(this.clock.getTime())
 			.generate();
+	}
+	
+	private validateRandomValue(randomValue: number) {
+		if(randomValue<1||randomValue>10)
+			throw new RandomValueOutOfBound();
 	}
 }
 
