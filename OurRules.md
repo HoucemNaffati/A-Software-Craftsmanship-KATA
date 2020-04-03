@@ -63,8 +63,9 @@
 ##### Tests are independent and isolated. One test should never influence a second one.
 
 ##### Stub Never Mock: 
-https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html
-https://www.openmymind.net/2011/3/23/Stop-Using-Mocks/
+
+(**What are test-doubles**)[https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html]
+(**Why should you avoid mocking**)[https://www.openmymind.net/2011/3/23/Stop-Using-Mocks/]
 
 ## Unit Tests
 
