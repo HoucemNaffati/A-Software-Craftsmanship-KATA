@@ -1,8 +1,8 @@
 # TimedMessageGenerator
-Advanced Exercise to introduce Example Mapping|TDD|Hexagonal Architecture
+Advanced exercise to introduce Example Mapping|TDD|Hexagonal Architecture.
 
-1. Implement example-mapped [**specifications**](Spec.md) using TDD (~45min)
-2. Try to apply craftsmanship [**rules and principles**](OurRules.md)
+1. Implement example-mapped [**specifications**](Spec.md) using TDD. (~45min)
+2. Try to apply craftsmanship [**rules and principles**](OurRules.md).
 3. Experience impact of those changes on your code "_**in the given order**_" to measure sucess.
 
 ### Clean code should be able to adapt quickly without impacting your test suite
@@ -12,7 +12,7 @@ Advanced Exercise to introduce Example Mapping|TDD|Hexagonal Architecture
     Put all the messages to up case and replace spaces by '**'. 
 
 :one: Advanced Display: 
-we want to output one unique message combining all values (Fuse 'Fizz Buzz' and 'Happy')
+    We want to output one unique message combining all values (Fuse 'Fizz Buzz' and 'Happy').
 ````
     in->out
     0 ->0-Fizz Buzz-Happy or unHappy
@@ -35,11 +35,10 @@ we want to output one unique message combining all values (Fuse 'Fizz Buzz' and 
     Display "FULL ODD" when the hour, minute and second are ODD or "FULL EVEN" otherwise.
   
 :five: Synchronization problem: 
-    Use an api like (http://worldtimeapi.org/api/ip)[http://worldtimeapi.org/api/ip] to fetch the hour based on IP address.
+    Use an api like (http://worldtimeapi.org/api/ip)[http://worldtimeapi.org/api/ip] to fetch the time based on IP address.
 
 :six: ExperiencedUsers: 
-    For the deterministic part of the game we want to interpreat the hole interval [min(lastrandom, second%10], max(lastrandom,second%10)] 
-    and display the full fuzz buzz serie.
+    For the deterministic part of the game we want to interpreat the hole interval [min(lastrandom, second%10],         max(lastrandom,second%10)] and display the full fuzz buzz serie.
   ```` 
   example:
   random= 5
@@ -48,4 +47,4 @@ we want to output one unique message combining all values (Fuse 'Fizz Buzz' and 
   ````
 
 ##### Happy coding FOLKS !
-### check my implementation [here](./app)
+### check my implementation [here](./app).
