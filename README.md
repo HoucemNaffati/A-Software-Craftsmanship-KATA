@@ -37,11 +37,11 @@ This is an advanced exercise to introduce _TDD_, _SOLID_ design principles and _
 
 - The cost of changing UI library or framework is significantly cheap.:relaxed:
 
-- You felt happy that you received a change or a a new requirement.:sparkles:
+- You felt happy that you had received a change or a new requirement.:sparkles:
 
-- Your confident that your solution is out of bugs at any time.:sunny:
+- You are confident that your solution is out of bugs at any time.:sunny:
 
-- Your application is always in a shippable status.:rocket:
+- Your application is always ready to be shipped.:rocket:
 
 
 > ### Happy coding FOLKS !
