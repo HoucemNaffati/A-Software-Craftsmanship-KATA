@@ -1,6 +1,6 @@
 # TimedMessageGenerator: <br>A software craftsmanship KATA
 
-<iframe width="623" height="385" seamless frameborder="0" scrolling="no" src="/build/index.html"></iframe>
+<iframe width="623" height="385" seamless frameborder="0" scrolling="no" src="https://github.com/HoucemNaffati/A-Software-Craftsmanship-KATA/blob/master/app/build/index.html"></iframe>
 
 ### I. Why do I need to train myself on this ? 
 
