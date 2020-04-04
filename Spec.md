@@ -1,17 +1,18 @@
 # Timed Message Generator
 
-use a clock, interpret values so you can every second
+Use a clock, interpret values so you can every second 
+
    ### if the second is divisible by 10
     FizzBuzz:
-    +/ if divisible by 3 => Fizz
-    +/ if divisible by 5 => Buzz
-    +/ else => value of the second
+    - if divisible by 3 => Fizz
+    - if divisible by 5 => Buzz
+    - if divisible by 3 and by 5 => value of the second
 
    ### else (second is divisible by 10)
     Happy:
-    generate a random number between 1 and 10 :
-    if the random value is equal to '7' => Happy 
-    else => Unhappy
+    - generate a random number between 1 and 10 :
+      - if the random value is equal to '7' => Happy 
+      - else => Unhappy
    
    ### Examples
        0->Fizz Buzz
