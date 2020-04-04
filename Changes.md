@@ -5,14 +5,14 @@
 :one: Advanced Display: 
     We want to output the unique message, which contains all the values (Fuse 'Fizz Buzz' and 'Happy').
 
-    - in->out
-    - 0 ->0-Fizz Buzz-Happy or unHappy
-    - 1 ->1-1-Happy or UnHappy
-    - 2 ->2-2-Happy or UnHappy
-    - 3 ->3-Fizz-Happy or UnHappy
-    - 10->10-Buzz-Happy or unHappy
-    - 15->15-Fizz Buzz-Happy or unHappy
-    - 21->21-Fizz-Happy or unHappy
+- in->out
+- 0 ->0-Fizz Buzz-Happy or unHappy
+- 1 ->1-1-Happy or UnHappy
+- 2 ->2-2-Happy or UnHappy
+- 3 ->3-Fizz-Happy or UnHappy
+- 10->10-Buzz-Happy or unHappy
+- 15->15-Fizz Buzz-Happy or unHappy
+- 21->21-Fizz-Happy or unHappy
 
 
 :two: Happy Hour: 
