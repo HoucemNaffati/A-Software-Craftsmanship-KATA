@@ -21,7 +21,7 @@ You can find my guidelines [here](OurRules.md). :book:
 
 ### Let's rock'n'roll!
 
-This is an advanced exercise to introduce TDD|SOLID|Hexagonal Architecture. :computer:
+This is an advanced exercise to introduce _TDD_, _SOLID_ design principles and _Hexagonal Architecture_. :computer:
 
 1. Implement example-mapped [**specifications**](Spec.md) using TDD. (~45min is a reasonable estimate) :hammer:
 2. Try to apply craftsmanship's [**rules and principles**](OurRules.md). :wrench:
@@ -29,19 +29,19 @@ This is an advanced exercise to introduce TDD|SOLID|Hexagonal Architecture. :com
 
 ### How to measure success ? :dart:
 
-###### Clean code should be easily readable by a non-programmer person.:surfer:
+##### Clean code should be easily readable by a non-programmer person.:surfer:
 
-###### Clean design should be able to adapt quickly without impacting your test suite.:ok_hand:
+##### Clean design should be able to adapt quickly without impacting your test suite.:ok_hand:
 
-###### Your solution is easily testable.:dash:
+##### Your solution is easily testable.:dash:
 
-###### The cost of changing UI librarie or frameworks is signifincally cheap.:relaxed:
+##### The cost of changing UI librarie or frameworks is signifincally cheap.:relaxed:
 
-###### You felt happy that you received a change or a a new requirement.:sparkles:
+##### You felt happy that you received a change or a a new requirement.:sparkles:
 
-###### Your confident that your solution is out of bugs at any time.:sunny:
+##### Your confident that your solution is out of bugs at any time.:sunny:
 
-###### Your application is always in a shippable status.:rocket:
+##### Your application is always in a shippable status.:rocket:
 
 
 ##### Happy coding FOLKS !
