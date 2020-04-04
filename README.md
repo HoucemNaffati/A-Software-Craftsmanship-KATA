@@ -4,11 +4,12 @@
 
 [**_Phil Crosby_**](https://en.wikipedia.org/wiki/Philip_B._Crosby) said:
 
-````
+``
 It is always cheaper to do the job right the first time. 
 If we deliver on time, but the product has defects, we have not delivered on time.
 [Phil Crosby]
-````
+``
+
 Software means an easy-to-change product. It needs to be easy to change and to adapt at any moment.
 If you find that after each requirements' change, your team are redoing the same application over and over again, 
 then you defenitely need TDD and design skills.
