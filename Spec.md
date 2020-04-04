@@ -14,7 +14,7 @@ Use a clock, interpret values so you can every second
          - if the random value is equal to '7' => Happy 
          - else => Unhappy
    
-   ### Examples
+  **Examples**<br>
        - 0->Fizz Buzz
        - 1->1
        - 3->Fizz
