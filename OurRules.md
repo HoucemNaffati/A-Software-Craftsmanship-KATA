@@ -95,7 +95,7 @@
 # TDD
 - We do Baby Steps and discover design by following what the tests need incrementally.
 
-red -> green -> refactor -> red...
+red -> green -> refactor -> red...<br>
     red: I dont write any production code unless I have a failing unit test that require it.<br>
     green: I write minimum code that strictly satisfies the test.<br>
     refactor: I make the code S.O.L.I.D.<br>
