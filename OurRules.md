@@ -81,8 +81,8 @@
 
 ## Integration Tests
 
-> It validates that dependencies behave as expected.
-> In general, it tests what we stubbed in unit tests.
+- It validates that dependencies behave as expected.
+- In general, it tests what we stubbed in unit tests.
 
 ## E2E tests
 
