@@ -92,6 +92,14 @@
 - UI details can change easily so you can do snapshot testing (happy and failure scenarios) to capture accidental
       regressions.
 
+# TDD
+- We do Baby Steps and discover design by following what the tests need incrementally.
+
+red -> green -> refactor -> red...
+    red: I dont write any production code unless I have a failing unit test that require it.<br>
+    green: I write minimum code that strictly satisfies the test.<br>
+    refactor: I make the code S.O.L.I.D.<br>
+    
 # Smells:
 
 - Broken SRP: After naming correctly, the name contains OR or AND.
@@ -99,10 +107,4 @@
 - Tests are not UNIT: Test suite passes some time, some times not.
 - Test FOCUS: changing technical details break one or more tests.
 
-# TDD
-- We do Baby Steps and discover design by following what the tests need incrementally.
 
-red -> green -> refactor -> red...
-    red: I dont write any production code unless I have a failing unit test that require it.
-    green: I write minimum code that strictly satisfies the test.
-    refactor: I make the code S.O.L.I.D  
