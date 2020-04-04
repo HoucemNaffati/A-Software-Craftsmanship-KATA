@@ -11,7 +11,7 @@
 A software means an easy-to-change product. 
 It needs to be easy to change and to adapt at any moment.
 If you find that after each requirement's change, your team are redoing the same application over and over again, :trollface: 
-then you defenitely need TDD and design skills. :pill: :gem:
+then you definitely need TDD and design skills. :pill: :gem:
 
 ### II. Is this suitable for my coding level ?
 
