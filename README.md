@@ -10,7 +10,7 @@
 
 A software means an easy-to-change product. 
 It needs to be easy to change and to adapt at any moment.
-If you find that after each requirements' change, your team are redoing the same application over and over again :trollface:, 
+If you find that after each requirements' change, your team are redoing the same application over and over again, :trollface: 
 then you defenitely need TDD and design skills. :pill: :gem:
 
 ### Is this suitable for my coding level ?
@@ -21,7 +21,7 @@ You can find my guidelines [here](OurRules.md). :book:
 
 ### Let's rock'n'roll!
 
-This is an advanced exercise to introduce TDD|SOLID|Hexagonal Architecture. 💻 :computer:
+This is an advanced exercise to introduce TDD|SOLID|Hexagonal Architecture. :computer:
 
 1. Implement example-mapped [**specifications**](Spec.md) using TDD. (~45min is a reasonable estimate) :hammer:
 2. Try to apply craftsmanship's [**rules and principles**](OurRules.md). :wrench:
