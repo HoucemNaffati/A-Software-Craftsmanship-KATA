@@ -10,7 +10,7 @@
 
 A software means an easy-to-change product. 
 It needs to be easy to change and to adapt at any moment.
-If you find that after each requirements' change, your team are redoing the same application over and over again, :trollface: 
+If you find that after each requirement's change, your team are redoing the same application over and over again, :trollface: 
 then you defenitely need TDD and design skills. :pill: :gem:
 
 ### II. Is this suitable for my coding level ?
@@ -23,19 +23,19 @@ You can find my guidelines [here](OurRules.md). :book:
 
 This is an advanced exercise to introduce _TDD_, _SOLID_ design principles and _Hexagonal Architecture_. :computer:
 
-1. Implement example-mapped [**specifications**](Spec.md) using TDD. (~45min is a reasonable estimate) :hammer:
+1. Implement example-mapped [**specifications**](Spec.md) using TDD. (~45min is a reasonable estimation) :hammer:
 2. Try to apply craftsmanship's [**rules and principles**](OurRules.md). :wrench:
 3. Experience the impact of the following [**changes**](Changes.md) on your code "_**in the given order**_" to measure your level of success. :ghost:
 
 ### IV. How to measure success ? :dart:
 
-- Clean code should be easily readable by a non-programmer person.:surfer:
+- Clean code should be easy to read by a non-programmer person.:surfer:
 
-- Clean design should be able to adapt quickly without impacting your test suite.:ok_hand:
+- Clean design should be able to quickly adapt without impacting your tests.:ok_hand:
 
-- Your solution is easily testable.:dash:
+- Your solution is tested easily.:dash:
 
-- The cost of changing UI librarie or frameworks is signifincally cheap.:relaxed:
+- The cost of changing UI library or framework is significantly cheap.:relaxed:
 
 - You felt happy that you received a change or a a new requirement.:sparkles:
 
