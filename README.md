@@ -34,8 +34,8 @@ This is an advanced exercise to introduce TDD|SOLID|Hexagonal Architecture.
 ###### Your solution is easily testable.
 ###### The cost of changing UI librarie or frameworks is signifincally cheap.
 ###### You felt happy that you received a change or a a new requirement.
-###### your confident that your solution is out of bugs at any time.
-###### your application is always in a shippable status.
+###### Your confident that your solution is out of bugs at any time.
+###### Your application is always in a shippable status.
 
 
 ##### Happy coding FOLKS !
