@@ -1,7 +1,5 @@
 # TimedMessageGenerator: <br>A software craftsmanship KATA
 
-<iframe src="https://github.com/HoucemNaffati/A-Software-Craftsmanship-KATA/tree/master/app/build/index.html"></iframe>
-
 ### I. Why do I need to train myself on this ? 
 
 [**_Phil Crosby_**](https://en.wikipedia.org/wiki/Philip_B._Crosby) said :
