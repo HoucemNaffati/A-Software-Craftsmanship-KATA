@@ -26,7 +26,7 @@
     Display "FULL ODD" when the hour, minute and second are ODD or "FULL EVEN" otherwise.
   
 :five: Synchronization problem: 
-    Use an api like (http://worldtimeapi.org/api/ip)[http://worldtimeapi.org/api/ip] to fetch the time based on the IP address.
+    Use an api like http://worldtimeapi.org/api/ip to fetch the time based on the IP address.
 
 :six: ExperiencedUsers: 
     For the deterministic part of the game we want to interpret the whole interval [min(lastrandom, second%10],         max(lastrandom,second%10)] and display the full fuzz buzz serie.
