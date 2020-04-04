@@ -47,7 +47,7 @@ This is an advanced exercise to introduce _TDD_, _SOLID_ design principles and _
 > ### Happy coding FOLKS !
 
 
-> # Check out my React.js|Typescript implementation [here](./app).  
+> # Check out my React.js|Typescript implementation [here](https://github.com/HoucemNaffati/A-Software-Craftsmanship-KATA/tree/master/app/src).  
 
 Please feel free to submit issues for improvements or create branches with examples of your solutions.:+1:
 Sharing is caring! 
