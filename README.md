@@ -1,4 +1,4 @@
-# TimedMessageGenerator: a software craftsmanship KATA
+# TimedMessageGenerator: <br>A software craftsmanship KATA</br>
 
 ### Why do I need to train myself on this ? 
 
