@@ -15,12 +15,19 @@ Use a clock, interpret values so you can every second
          - else => Unhappy
    
   **Examples**<br>
+
        - 0->Fizz Buzz(this is an exception because divisible by 10)
+
        - 1->1
+
        - 3->Fizz
+
        - 4->4
+
        - 5->Buzz
+
        - 15->Fizz Buzz
+
        - 20 ->
             based on random value :<br>
              - 6 -> UnHappy
