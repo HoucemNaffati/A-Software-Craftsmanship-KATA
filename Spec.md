@@ -8,7 +8,7 @@ Use a clock, interpret values so you can every second
        - if divisible by 5 => Buzz
        - if divisible by 3 and by 5 => value of the second
 
-   - else (second is divisible by 10)
+   - else (second is **not** divisible by 10)
        Happy:
        - generate a random number between 1 and 10 :
          - if the random value is equal to '7' => Happy 
