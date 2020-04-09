@@ -1,6 +1,6 @@
 # Timed Message Generator
 
-Use a clock, interpret values so you can every second 
+Use a clock, interpret values of the seconds:
 
    - If the second is **not** divisible by 10(except for 0)
        FizzBuzz:
