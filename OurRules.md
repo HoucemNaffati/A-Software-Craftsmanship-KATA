@@ -70,8 +70,8 @@
 
 ## Unit Tests
 
-- It Validates functional specifications.
-- It vaptures behaviors and no technical details.
+- It validates functional specifications.
+- It captures behaviors and no technical details.
 - It allow Algorithm discovery.
 - Those tests provide **immediate** feedback when developing existing or new features. 
 - They are extremely fast. (~1second)
