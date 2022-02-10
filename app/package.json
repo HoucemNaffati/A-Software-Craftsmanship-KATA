@@ -15,7 +15,7 @@
     "@types/node": "^12.12.34",
     "@types/react": "^16.9.32",
     "@types/react-dom": "^16.9.6",
-    "node-sass": "4.13.1",
+    "node-sass": "7.0.0",
     "react-scripts": "3.4.1",
     "serve": "^11.3.0",
     "typescript": "^3.8.3"
