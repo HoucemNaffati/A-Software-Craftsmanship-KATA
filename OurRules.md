@@ -8,12 +8,13 @@
 
 # Architecture:
 
-- We use [**Hexagonal Architecture**](https://alistair.cockburn.us/hexagonal-architecture/) principles.
+- Use [**Hexagonal Architecture**](https://alistair.cockburn.us/hexagonal-architecture/) principles. This enables unit reliable testing without bothering with mocking tools that (if used in a wrong way) may turn your project into a real broken-as-you-touch-it real mess.
 
 # Coding principles:
 
-- Public methods are ruled by contracts, never change the signature.
-- Coding by wishful thinking.
+- Public methods are ruled by contracts, they need carefull design and communication.
+- Coding by wishful thinking. 
+- Fake it till you make it.
 - YAGNI: You Are Not Gonna Need It !
 - BoyScout Principle: “Try and leave the world a little better than you found it”.[Robert Baden-Powell]
 - DRY: Don't Repeat Yourself.
@@ -102,7 +103,7 @@ red -> green -> refactor -> red...<br>
     
 # Smells:
 
-- Broken SRP: After naming correctly, the name contains OR or AND.
+- Broken SRP: After naming correctly, the name contains OR or AND keywords.
 - BAD Design: Changing method visibility only to be able to test it.
 - Tests are not UNIT: Test suite passes some time, some times not.
 - Test FOCUS: changing technical details break one or more tests.
